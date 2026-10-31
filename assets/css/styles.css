@@ -254,8 +254,8 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .about__content p { font-size: 1.05rem; }
 .about__visual { position: relative; }
 .collage { position: relative; margin: 0; width: 100%; padding-bottom: 18%; }
-.collage__main { width: 82%; aspect-ratio: 1; object-fit: cover; border-radius: 28px; box-shadow: 0 40px 80px -30px rgba(6, 40, 70, .45); }
-.collage__sub { position: absolute; right: 0; bottom: 0; width: 70%; aspect-ratio: 1305 / 452; object-fit: cover; border-radius: 20px; border: 6px solid var(--paper); box-shadow: 0 30px 60px -25px rgba(6, 40, 70, .5); }
+.collage__main { width: 82%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 28px; box-shadow: 0 40px 80px -30px rgba(6, 40, 70, .45); }
+.collage__sub { position: absolute; right: 0; bottom: 0; width: 70%; height: auto; aspect-ratio: 1305 / 452; object-fit: cover; border-radius: 20px; border: 6px solid var(--paper); box-shadow: 0 30px 60px -25px rgba(6, 40, 70, .5); }
 .about__float { position: absolute; display: flex; gap: 12px; align-items: center; padding: 14px 18px; border-radius: 16px; background: #fff; box-shadow: 0 20px 40px -18px rgba(6, 40, 70, .35); border: 1px solid var(--paper-line); color: var(--ink); }
 .about__float svg { width: 34px; height: 34px; padding: 7px; border-radius: 10px; background: #e3faf7; color: #0a8f86; flex: none; }
 .about__float strong { display: block; font-family: var(--display); font-size: 1rem; }
