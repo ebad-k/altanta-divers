@@ -11,7 +11,7 @@ index.html            Page markup and content (all sections)
 favicon.svg           Browser tab icon
 assets/css/styles.css All styling (design tokens at the top in :root)
 assets/js/main.js     Nav, animations, service filter, FAQ, quote form
-assets/img/logo.svg   Logo mark
+assets/img/            Logo, hero photo, service photos (services/), field photos (field/)
 ```
 
 ## Sections
